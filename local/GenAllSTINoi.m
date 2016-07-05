@@ -25,4 +25,5 @@ for CurTest = [1:noTest],
  FilNam = [STIsig.path, sprintf(STIsig.fnam, CurTest)];
  tic;GenDblSTINoi(FilNam,STIsig);toc;
 end
+delete('.\signals\band*.dbl', '.\signals\Modulat*.dbl', '.\signals\WhiteNoi.dbl');
 % By Pete D. Best 09/05/18
